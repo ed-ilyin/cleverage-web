@@ -1,20 +1,12 @@
-<h1>
-	<a href="https://t.me/Cleveragebot" target="_blank"><b>CLeveRAge | СОобРАЖатор</b></a>,
-	<a href="tg://resolve?domain=Cleveragebot">@Cleveragebot</a>
-</h1>
+<script>
+	import Wrap from '$lib/Wrap.svelte';
+	import Button from '$lib/Button.svelte';
+</script>
+
+<Wrap>
+	<Button href="https://t.me/Cleveragebot">CLeveRAge | СОобРАЖатор</Button>
+	<Button href="tg://resolve?domain=Cleveragebot">@Cleveragebot</Button>
+</Wrap>
 
 <style>
-	h1 {
-		text-align: center;
-	}
-	a {
-		text-decoration: none;
-		color: white;
-		background-color: #cde4;
-		border-radius: 8px;
-		padding: 8px;
-	}
-	a:hover {
-		background-color: #cde7;
-	}
 </style>

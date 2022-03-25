@@ -1,16 +1,15 @@
-<script>
-	import Box from '$lib/Box.svelte';
-</script>
-
-<Box>
-	<a href="https://www.instagram.com/cleveragebot" target="_blank"
-		><img alt="Cleveragebot Instagram" src="ig-cleverage.png" /></a
-	>
-</Box>
+<a href="https://www.instagram.com/cleveragebot" target="_blank"
+	><img alt="Cleveragebot Instagram" src="ig-cleverage.png" /></a
+>
 
 <style>
 	img {
 		max-width: 16rem;
 		border-radius: 8px;
+		opacity: 0.6;
+		margin: 8px;
+	}
+	img:hover {
+		opacity: 0.8;
 	}
 </style>
